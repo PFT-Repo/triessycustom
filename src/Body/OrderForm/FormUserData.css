@@ -1,0 +1,14 @@
+.DataContainer{
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    align-items:space-between;
+    background-color: white;
+    padding:20px;
+}
+.button-container{
+    display:flex;
+    flex-direction: row;
+    align-items:space-around;
+    justify-content:space-between;
+}

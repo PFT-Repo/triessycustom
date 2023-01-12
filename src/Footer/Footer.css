@@ -1,0 +1,14 @@
+.div{
+    display: flex;
+    flex-direction: horizontal;
+    align-items: space-between;
+    font-size:calc(10px+1em);
+
+}
+
+.App-logo{
+    animation:none;
+    margin:auto;
+    max-height: 1em;
+    align-self:space-around;
+}

@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50vmin;
   pointer-events: none;
 }
 
@@ -14,14 +14,37 @@
 }
 
 .App-header {
+  position: sticky;
+  top: 0%;
   background-color: #282c34;
-  min-height: 100vh;
+  max-height: wrap;
+  height:auto;
+  border-bottom: 3px solid green;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 1.5vmin);
   color: white;
+}
+.App-body{
+  background-Image:url("./Drawables/background.jpg");
+  background-Size:cover;
+  background-Position: center;
+  background-Repeat: no-repeat;
+  overflow: auto;
+}
+.App-footer {
+  background-color: #282c34;
+  border-top: 3px solid green;
+  display: flex;
+  flex-direction: column;
+  font-size:1vmin;
+  align-items:center space-around;
+  color: white;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width: stretch;
 }
 
 .App-link {

@@ -1,0 +1,10 @@
+.div{
+    display: flex;
+    flex-direction: horizontal;
+    align-items: space-between;
+
+}
+
+.App-logo{
+    align-self:center;
+}
